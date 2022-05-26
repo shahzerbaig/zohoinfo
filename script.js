@@ -1,12 +1,5 @@
-----
-# This is a test document which showcase the basic skill set.
-
-The information below shows the basic understading of how zoho works, it will give output of the information.
-*To see the information reffer the index.html*
-
-plus an addtional information is defined here as 
-
-` <div class="tools">
+const ll = document.createElement('div')
+const toolTemplate = `  <div class="tools">
 <h4>The tools from Zoho spans 11 different Departments</h4>
 <ol>
     <li>Sales</li>
@@ -61,5 +54,14 @@ plus an addtional information is defined here as
         </ul>
 </ol>
 </div>`
+const button = document.querySelector('button')
+let change = document.getElementById('change')
+let dum = document.getElementById('dum22')
+let container = document.getElementById('zohoone')
 
-### The goal of this web page is to render the basic information on the screen and when the button is pressed it should render the remaning information too.
+button.addEventListener('click',()=>{
+    console.log("clicked");
+    change.innerHTML = ll ;
+    container.appendChild(ll)
+    
+})

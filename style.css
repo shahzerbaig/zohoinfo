@@ -1,0 +1,69 @@
+hr{
+    color: black;
+}
+button{
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    width: 50%;
+    left: 25%;
+    bottom: 2%;
+}
+.main{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.zohoone{
+    
+    border: .5px solid black;
+    height: auto;
+    width: 80%;
+}
+.change{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.question{
+
+    border: .5px solid black;
+    height: auto;
+    width: 80%;
+    
+}
+.dum1{
+    margin: 10%;
+}
+.dum2, #dum22{
+    margin: 10%;
+}
+
+.headlin,h2{
+    margin: 0%;
+    padding: 0;
+    text-align: center;
+    width: auto;
+}
+h2:hover{
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+}
+.question:hover{
+    box-shadow: 2px 2px;
+    cursor: pointer;
+}
+.zohoone:hover{
+    box-shadow: 2px 2px;
+    cursor: pointer;
+}
+
+
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,.4) 0%, rgba(9,9,121,.5) 35%, rgba(0,212,255,.5) 100%);
+
+}
+.tools{
+    background-color: aliceblue;
+}
